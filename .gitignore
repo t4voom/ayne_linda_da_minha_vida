@@ -1,3 +1,7 @@
-# Fotos e vídeo pessoais ficam fora do repositório público
+# Fotos, vídeo e música pessoais ficam fora do repositório público
 fotos/
+assets/fotos/
+assets/music/*
+!assets/music/LEIA-ME.md
 .preview-tmp.html
+__pycache__/
