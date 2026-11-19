@@ -1,7 +1,4 @@
-# Fotos, vídeo e música pessoais ficam fora do repositório público
-fotos/
-assets/fotos/
-assets/music/*
-!assets/music/LEIA-ME.md
+# Pasta de fotos da versão antiga do site
+/fotos/
 .preview-tmp.html
 __pycache__/

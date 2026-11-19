@@ -50,8 +50,8 @@ a carta, as mensagens, a música e os segredos. Não precisa mexer em mais nada.
 
 ## Fotos e vídeo
 
-As fotos ficam em `assets/fotos/` e **não vão pro Git**, porque este repositório é
-público. Nomes usados:
+As fotos ficam em `assets/fotos/` e vão junto no repositório, que por isso
+precisa ficar **privado**. Nomes usados:
 
 ```
 praia-mirante.jpg  carro-noite.jpg  hamburguer-1.jpg  hamburguer-2.jpg  chamada.jpg
@@ -78,6 +78,14 @@ Sem rodar o script o site funciona do mesmo jeito, só que mais pesado.
 A música só começa depois que ela tocar em *Abrir* com o som ligado, com volume
 suave e um botão discreto no canto para pausar. Quando o vídeo toca com som, a
 música espera.
+
+## Publicar com um link
+
+Pelo GitHub Pages: Settings → Pages → *Deploy from a branch* → escolha o branch e
+a pasta `/ (root)`. No plano gratuito do GitHub, o Pages só funciona com
+repositório público; com repositório privado, precisa do GitHub Pro. Em qualquer
+caso, o site publicado abre para quem tiver o link (e não aparece no Google, por
+causa do `noindex`).
 
 ## Ver no computador
 
