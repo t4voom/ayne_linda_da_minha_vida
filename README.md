@@ -81,11 +81,23 @@ música espera.
 
 ## Publicar com um link
 
-Pelo GitHub Pages: Settings → Pages → *Deploy from a branch* → escolha o branch e
-a pasta `/ (root)`. No plano gratuito do GitHub, o Pages só funciona com
-repositório público; com repositório privado, precisa do GitHub Pro. Em qualquer
-caso, o site publicado abre para quem tiver o link (e não aparece no Google, por
-causa do `noindex`).
+O repositório é privado, e no plano gratuito o GitHub Pages só publica
+repositório público. O caminho grátis é o **Cloudflare Pages**, que aceita
+repositório privado:
+
+1. Em dash.cloudflare.com, abra **Workers & Pages → Create → Pages** e conecte
+   o GitHub, dando acesso a este repositório.
+2. Configure:
+   - **Production branch:** o branch onde está o site novo
+     (`claude/relaxed-brahmagupta-qoaib2`; o padrão do repositório ainda é o do
+     site antigo)
+   - **Framework preset:** None
+   - **Build command:** `exit 0`
+   - **Build output directory:** em branco
+3. **Save and Deploy.** O endereço fica parecido com `nome-do-projeto.pages.dev`.
+
+O site abre para quem tiver o link e não aparece no Google (por causa do
+`noindex`). As fotos continuam privadas no GitHub.
 
 ## Ver no computador
 
